@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ2_Makogon_UTS21", "DZ2_Makogon_UTS21\DZ2_Makogon_UTS21.csproj", "{D956A263-EC91-4F28-A810-0B14189347ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D956A263-EC91-4F28-A810-0B14189347ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D956A263-EC91-4F28-A810-0B14189347ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D956A263-EC91-4F28-A810-0B14189347ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D956A263-EC91-4F28-A810-0B14189347ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCF0A150-5A7E-451A-926C-B2B6579D861B}
+	EndGlobalSection
+EndGlobal
