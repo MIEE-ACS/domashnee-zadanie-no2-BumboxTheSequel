@@ -22,13 +22,12 @@ namespace DZ2_Makogon_UTS21
                 else if (x < 2)
                 {
                     Console.WriteLine("y({0:0.00}) = {1:0.00}", x, segment2(x));
-                }
-                else if (x < 2.2)
-                    {
                     // в точке с x = 2 наблюдается разрыв
-                    //на данном участке прямая лежит на оси x
-                    Console.WriteLine("y({0:0.00}) = {1:0.00}", 2, 0);
-                    Console.WriteLine("y({0:0.00}) = {1:0.00}", x, 0);
+                    if (x > 1.8)
+                    {
+                        //прямая, начиная с этой точки, лежит на оси x
+                        Console.WriteLine("y({0:0.00}) = {1:0.00}", x, 0);
+                    }
                 }
                 else if (x < 6)
                 {
